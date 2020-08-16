@@ -3,9 +3,45 @@ body {
     font-size: small;
 }
 
+.topnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.push {
+    margin-left: auto;
+}
+
+a {
+    margin: 10px 7px 10px 7px;
+    text-decoration: none;
+    color: rgba(73, 73, 73, 1);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#sign-in, #sign-in:hover {
+    background-color: rgb(57, 134, 235);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 7px 10px;
+    text-decoration: none;
+}
+
+#apps {
+    height: 25px;
+    width: 25px;
+    opacity: 0.5;
+}
+
 #logo {
     display: block;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
     width: 250px;
 }
 
@@ -40,12 +76,15 @@ form {
 
 input[type=button] {
     background-color: rgba(120,120,120,0.1);
-    border: none;
     padding: 10px 20px;
     cursor: pointer;
     border: 0.5px solid transparent;
+    border-radius: 4px;
     font-size: 14px;
     font-family: arial, sans-serif;
+    color: rgba(73, 73, 73, 0.9);
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 input[type=button]:hover {
